@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Bull</title>
+
+  <style>
+        .first_page{
+
+            background-image:url(https://i.pinimg.com/736x/29/ec/0d/29ec0d8dbdd014a41f6c6039350ae24c.jpg);
+            background-size:contain;
+            background-repeat: no-repeat;
+            font-family: 'Poppins', sans-serif; 
+        }
+
+        .first_page h1  {
+            font-size:50px;
+        }
+
+        .first {
+            margin-top: 500px;
+        }
+
+        .header1 {
+            display:flex;
+            align-items: center;
+        }
+
+        nav  {
+             margin-left:800px;
+             color: aliceblue;
+        }
+
+        nav a{
+            color: aliceblue;
+        }
+
+        h1{
+            margin-left:30px;
+            color:white;
+        }
+
+        h2{
+            font-size: 30px;
+            margin-top: 400px;
+            margin-left:120px;
+            color:white
+        }
+
+        p{
+            margin-left:70px;
+            color: white;
+            font-size:20px;
+        }
+
+        h3 {
+            margin-left:120px;
+            color: white;
+            font-size:20px;
+        }
+
+        .drink_1 img {
+            margin-left:30px;
+            transition:transform 0.7s;
+        }
+
+        .drink_1 img:hover {
+            transform:scale(1.1);
+        }
+
+        .drink_1{
+            background-color:#ffd60a;
+            border-radius:20px;
+            padding:40px;
+            max-width: 250px;
+            justify-content: center;
+            align-content: center;
+        }
+
+        .heading1 {
+            color: #000000;
+            width: 500px;
+            right: 575px;
+            position: relative;
+            font-weight:bold;
+            font-size: 20px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .drink_2 img {
+            margin-left:30px;
+            transition:transform 0.7s;
+        }
+
+        .drink_2 img:hover {
+            transform:scale(0.3);
+        }
+
+        .drink_2  {
+            background-color:#fff;
+            padding:40px;
+            border-radius:20px;
+        }
+
+        .drink_3 img {
+            margin-left:10px;
+            transition:transform 0.7s;
+        }
+
+        .drink_3 img:hover{
+            transform:scale(1.1);
+        }
+
+        .drink_3 {
+            background-color: #c1121f;
+            border-radius:20px;
+            padding:40px;
+        }
+
+        .stories h1 {
+            color:black;
+            font-size: 50px;
+            margin-left:100px;
+        }
+
+        .stories img {
+            transition:transform 0.7s;
+        }
+
+        .stories img:hover{
+            transform:scale(1.1);
+        }
+
+        .img_1 {
+            margin-left:100px;
+            margin-top:50px;
+            display:flex;
+            justify-content: space-evenly;
+        }
+
+        .img_1 img {
+            width:400px;
+        }
+
+        .take_off h3 {
+                color: black;
+                font-size:50px;
+                margin-left:100px;
+            }
+
+        .take_off p {
+                
+                font-size:20px;
+                margin-left: 650px;
+            }
+
+        .take_off h3,p {
+
+               margin:0%;
+               margin-left:600px;
+              padding: 10px;
+              color:black;
+            }
+
+        .stories img {
+            border-radius: 20px;
+        }
+
+        .take_off {
+            background-image:url(https://i.pinimg.com/736x/1a/30/9e/1a309e0dd33bd837a99666bb356d3a85.jpg);
+            background-repeat: no-repeat;
+            background-size:cover;
+            border-radius:20px;
+        }
+
+        .man_img {
+            margin-left:150px;
+            margin-top: 50px;
+        } 
+
+        .fly_img {
+            margin-left:90px;
+        }
+
+        .car_img {
+            margin-left: 70px;
+        }
+
+        .post_img {
+            display: flex;
+        }
+
+        .iframe {
+            border-radius:900px;
+        }
+
+
+        .redbull_tv h1 {
+            color: black;
+            padding: 50px; 
+        }
+
+        .TV h1 {
+            color:#fff;
+            padding:40px;
+            font-size:40px;
+        }
+
+        .redbull_tv {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .TV {
+            padding:40px;
+            background-color: #000000;
+        }
+
+        .TV img {
+            border-radius:10px;
+        } 
+
+        .redbull_tv { 
+            padding:20px;   
+        }
+
+        .redbull_tv img {
+            transition:transform 0.7s;
+        }
+
+        .redbull_tv img:hover {
+            transform:scale(1.1);
+        }
+
+        .drinks_section {
+           border-radius: 20px; background-color:#ffff;
+        }
+
+        .drinks_section h1 {
+            color: black;
+            font-size: 30px;
+            padding: 50px;
+        }
+
+        .second_page {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .footer {
+           display:flex;
+           justify-content:space-around;
+        }
+
+        .footer a {
+            text-decoration: none;
+            font-size:20px;
+            color:#fff;
+        }
+
+        .last{
+            color: #fff;
+        }
+  
+        .form{
+            background-color:#c1121f
+        }
+        .divfo h1{
+            color: #c1121f;
+            font-size:50px;
+            margin-left: 700px;
+        }
+
+        .label fname{
+            border-radius: 50px;
+        }
+
+    </style>
+
+</head>
+
+<body> 
+
+    <div class="first_page">
+
+        <header class="header1">
+
+            <h1>Red Bull</h1>
+
+            <nav>
+                <a href="#Energy Drinks" style="margin-left:30px;">Energy Drinks</a>
+
+                <a href="#Events" style="margin-left: 30px;">Events</a>
+
+                <a href="#Athletes"style="margin-left: 30px;">Athletes</a>
+
+                <a href="#Red Bull TV"style="margin-left: 30px;">Red Bull TV</a>
+                
+            </nav>
+
+        </header>
+
+    <div class="first">
+
+        <h2>Red Bull Moto Jam </h2>
+        <h3>12 April 2025 . Drifting</h3>
+
+    </div>
+    
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    
+<div class="drinks_section">
+
+        <h1 >Energy Drinks</h1>
+
+        <br>
+
+<div class="second_page">
+
+        <div class="drink_1">
+
+            <p class="heading1" >&nbsp;&nbsp;&nbsp;&nbsp;Red Bull <br>Yellow Edition </p>
+
+            <img src="  https://img.redbull.com/images/e_trim/c_limit,w_500/q_auto:low,f_auto/redbullcom/2024/5/31/ts2q4zp2gzl9nuackln3/red-bull-yellow-edition-image" width="180px" height="350px">
+
+        </div>
+
+    <div class="drink_2">
+
+            <pre style="font-weight:bold;font-size: 20px;font-family:Verdana, Geneva, Tahoma, sans-serif;">        Red Bull 
+     Energy Drink
+
+            </pre>
+
+            <img src="https://img.redbull.com/images/e_trim/c_limit,w_375/q_auto,f_auto/redbullcom/2024/8/1/ksbgcpv9fs81rkf5krzb/red-bull-energy-drink" width="180px" height="350px">
+
+    </div>
+
+    <div class="drink_3">
+
+            <pre style="font-weight:bold;font-size: 20px;font-family:Verdana, Geneva, Tahoma, sans-serif;">     Red Bull 
+     Yellow Edition
+     
+            </pre>
+
+            <img src="https://img.redbull.com/images/e_trim/c_limit,w_500/q_auto:low,f_auto/redbullcom/2024/5/31/eybnzphwwit6y9l3gtwx/red-bull-red-edition-image" width="180px" height="350px">
+
+    </div>
+
+</div>
+
+</div>
+    
+        <br>
+        <br>
+        <br>
+        <br>
+ 
+    <div class="stories">
+        
+        <h1>stories</h1>
+
+        <div class="img_1">
+
+            <img src=" https://img.redbull.com/images/c_crop,x_0,y_0,h_4499,w_5249/c_fill,w_450,h_395/q_auto,f_auto/redbullcom/2023/12/14/mpymcj6e7azh8stvsemo/toby-price-dust">
+    
+             <img src="https://img.redbull.com/images/c_crop,x_43,y_0,h_2560,w_2986/c_fill,w_450,h_395/q_auto,f_auto/redbullcom/2024/11/18/v0n9zo12jxdkl4hvqoyn/ford-raptor-rally-car-carlos-sainz-moroccan-desert-dunes">
+        
+            <img src="https://img.redbull.com/images/c_crop,x_853,y_0,h_2560,w_2987/c_fill,w_450,h_395/q_auto,f_auto/redbullcom/2025/2/11/dfyrec63tcy4yw2537v9/pasha-petkuns-freerunning-tower-bridge-london">
+
+       </div>
+
+    </div>
+
+</div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+<div class="take_off">
+
+        <h3>Ready To take off ?</h3>
+
+        <p>RED BULL GIVES YOU WIIINGS</p> 
+
+    <div class="post_img"> 
+
+        <div class="car_img">
+
+            <a href="https://www.redbull.com/in-en/cartoons/"><img src="https://img.redbull.com/images/e_trim:10:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/q_auto:best,f_auto/redbullcom/2023/11/17/ciqp6etl1tl8xrezlnpb/one-for-the-road" width="300px" alt="image"></a>
+
+        </div>
+
+        <div class="man_img">
+
+           <a href="https://www.redbull.com/in-en/energydrink/company-profile"><img src="https://img.redbull.com/images/e_trim:10:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/q_auto:best,f_auto/redbullcom/2023/11/17/poiijwgcfdlbclxnna9i/player-2-wanted"  width="550px"> </a>
+
+        </div>
+
+        <div class="fly_img">
+
+               <a href="https://www.redbull.com/in-en/energydrink"><img src="https://img.redbull.com/images/e_trim:10:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/q_auto:best,f_auto/redbullcom/2023/11/17/amhahs0nrasqmjah5l4b/the-handyman-can" width="300px"></a>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <br>
+    
+   
+    <div class="iframe">
+
+        <iframe src="https://www.xgames.com/"width="1500px" height="500px"> </iframe>
+
+    </div>
+
+    <br>
+    <br>
+    
+   <div class="TV">    
+
+      <h1>Red Bull TV</h1>
+
+        <div class="redbull_tv">
+
+            <div>
+                
+                <img  src="https://img.redbull.com/images/c_crop,x_0,y_0,h_1600,w_1867/c_fill,w_450,h_395/q_auto,f_auto/redbullcom/2021/4/12/cmspivaeisfr8jjzsbdf/manpreet-singh-indian-hockey-team-captain-red-bull-athlete" width="300px">
+
+            </div>
+
+            <div>
+
+                <img src="https://img.redbull.com/images/c_crop,x_302,y_0,h_2130,w_2485/c_fill,w_450,h_395/q_auto,f_auto/redbullcom/2020/10/20/up1dscp51kqgzuhyswic/wallride-park-asphalt-pump-track-hyderabad-bmx" width="300px">
+
+            </div>
+
+            <div>
+
+                <img src="https://img.redbull.com/images/c_crop,x_0,y_0,h_4224,w_4928/c_fill,w_450,h_395/q_auto,f_auto/redbullcom/2017/12/20/d1667c5e-4b58-4eeb-9eaa-e01c4df59e1c/squat-technique"width="300px">
+
+            </div>
+
+            <div>
+
+                <img src="https://img.redbull.com/images/c_crop,x_244,y_0,h_3376,w_3939/c_fill,w_450,h_395/q_auto,f_auto/redbullcom/2020/10/9/zhopxidpp5xurpglrbgj/bangalore-mountain-festival-mtb-event-cross-country-olympic" width="300px">
+
+            </div>
+
+        </div>
+
+        <div class="redbull_tv">
+
+            <div>
+
+                <img src="https://img.redbull.com/images/c_crop,x_565,y_0,h_3007,w_3508/c_fill,w_450,h_395/q_auto,f_auto/redbullcom/2021/7/1/uywqqh3nmpas0wtdxzys/royal-rajasthan-rally-how-to-start-rallying-in-india" width="300px">
+
+            </div>
+
+            <div>
+
+                <img src="https://img.redbull.com/images/c_crop,x_0,y_0,h_2136,w_2492/c_fill,w_450,h_395/q_auto,f_auto/redbullcom/2021/8/19/hsi1cslknd4c0ztrd7d6/ninja-turtles-dance-crew-red-bull-beat-battle" width="300px">
+
+            </div>
+
+            <div>
+
+                <img src="https://img.redbull.com/images/c_crop,x_0,y_0,h_2560,w_2987/c_fill,w_450,h_395/q_auto,f_auto/redbullcom/2022/12/22/vxdxz8m5xsg8vyzj8mbq/manpreet-singh-indian-hcokey-captain" width="300px">
+
+            </div>
+
+            <div>
+
+                <img src="https://img.redbull.com/images/c_crop,x_292,y_0,h_2129,w_2484/c_fill,w_450,h_395/q_auto,f_auto/redbullcom/2020/8/10/ktq89vqqf48smhyym56y/viki-gomez-red-bull-athlete-bmx-flatland-rider" width="300px">
+
+            </div>
+
+        </div>
+
+        <div class="redbull_tv">
+
+             <div>
+
+                   <img src="https://img.redbull.com/images/c_fill,g_auto,w_450,h_395/q_auto,f_auto/redbullcom/2023/3/13/mcwr9iwwnucyu6djtxm1/red-bull-showrun-mumbai-2023" width="300px">
+
+             </div>
+
+
+             <div> 
+
+                   <img src="https://img.redbull.com/images/c_fill,g_auto,w_450,h_395/q_auto,f_auto/redbullcom/2022/12/19/upnxtcbct5jr2gykbpbg/gurpreet-singh-sandhu-indian-football-goalkeeper" width="300px">
+
+             </div>
+
+
+             <div>
+
+                   <img src="https://img.redbull.com/images/c_crop,x_276,y_0,h_1600,w_1600/c_fill,w_450,h_427/q_auto,f_auto/redbullcom/2022/12/20/mfwlcj5tntq8qhemb3bb/ankit-v3nom-panth-indian-esports-athlete" width="300px">
+
+             </div>
+
+
+             <div>
+
+                   <img src="https://img.redbull.com/images/c_crop,x_0,y_0,h_1597,w_1863/c_fill,w_450,h_395/q_auto,f_auto/redbullcom/2022/8/2/hvuecwzu4ijy9ekaiafn/parkour-freerunning-athlete-jason-paul-mumbai" width="300px">
+
+             </div>
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+<div class="footer">
+    
+      <div class="footer_1">
+        
+            <a href="https://www.redbull.com/in-en/energydrink" target="_blank"><h4>Products & Company</h4></a>
+
+            <a href="https://www.redbull.com/in-en/energydrink/contact-assistant" target="_blank"><h4>Contact Us</h4></a>
+
+            <a href="https://jobs.redbull.com/in-en" target="_blank"><h4>Jobs</h4></a>
+
+            <a href="https://www.redbullcontentpool.com/" target="_blank"><h4>Media</h4></a>
+
+            <a href="https://www.redbullshop.com/en-int/?utm_source=redbull.com&utm_medium=projects&utm_campaign=navi&utm_content=en&wt_mc=projects.redbull_com.navi" target="_blank"><h4>Red Bull Shop</h4></a>
+
+      </div>
+
+   <div class="footer_2">
+    
+            <a href="https://cookiepedia.co.uk/giving-consent-to-cookies"><h4>Cookie Settings</h4></a>
+
+            <a href="https://policies.redbull.com/policies/RedBull.com_IN/202502271659/en_IN/privacy.html"><h4>Privacy Policy</h4></a>
+
+            <a href="https://policies.redbull.com/policies/RedBull.com_IN/202502271659/en_IN/terms.html"><h4>Terms of Use</h4></a>
+
+            <a href="https://policies.redbull.com/policies/RedBull.com_IN/202502271659/en_IN/imprint.html"><h4>Imprint</h4></a>
+
+            <a href="https://policies.redbull.com/policies/RedBull.com_IN/202502271659/en_IN/brand_protection.html"><h4>Brand Protection</h4></a>
+
+            <a href="https://policies.redbull.com/policies/RedBull.com_IN/202502271659/en_IN/fraud_warning.html"><h4>Fraud Warning</h4></a>
+
+            <a href="https://policies.redbull.com/policies/RedBull.com_IN/202502271659/en_IN/corporate_social_responsibility.html"><h4>CSR Policy and Committee</h4></a>
+            
+            <a href="https://policies.redbull.com/policies/RedBull.com_IN/202502271659/en_IN/prevention_of_sexual_harassment.html"><h4>Prevention of Sexual Harassment</h4></a>
+
+   </div>
+
+<div class="last">
+
+       <h4>© 2025 Red Bull</h4>
+
+</div>
+
+</div>
+
+   </div>
+
+</body>
+
+</html>
